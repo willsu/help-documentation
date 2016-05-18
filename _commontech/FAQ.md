@@ -17,7 +17,7 @@ Although the `Resize Instance` option does appear in **Horizon**, this functiona
 
 
 ### How can I start up an instance on a specific host?
-This functionality is supported through the **OpenStack API**.  Please see [_How to deploy an instance to a specific hypervisor node_](https://github.blueboxgrid.com/documentation/bluebox-docs/blob/master/Deploy_to_specific_hypervisor.md) for more details.
+This functionality is supported through the **OpenStack API**.  Please see [_How to deploy an instance to a specific hypervisor node_](http://ibm-blue-box-help.github.io/help-documentation/nova/deploy-to-specific-hypervisor/) for more details.
 
 
 
