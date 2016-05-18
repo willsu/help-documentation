@@ -13,15 +13,15 @@ There are two basic parts to the floating IP process: **allocation** and **attac
 
 **Step 1.** From your **Horizon Dashboard**, under the **Project** section, go to **Instances**.  Next to your Instance, pull down the dropdown box on the right and choose **Associate Floating IP**:
 
-![Associate Floating IP](https://help.bluebox.net/hc/en-us/article_attachments/202130148/Instances_-_OpenStack_Dashboard.png)
+![Associate Floating IP](https://cloud.githubusercontent.com/assets/17212946/15376938/ca422d80-1d1d-11e6-802a-3a760357629d.png)
 
 **Step 2.** In the **Floating IP** dialog box, if you don't have any IPs listed in the dropdown, click the plus (+) sign to allocate a new floating IP to your account:
 
-![Floating IP Dialog Box] (https://help.bluebox.net/hc/en-us/article_attachments/202130158/Instances_-_OpenStack_Dashboard_2.png)
+![Floating IP Dialog Box] (https://cloud.githubusercontent.com/assets/17212946/15376948/d9919712-1d1d-11e6-8e8f-f50486e903aa.png)
 
 **Step 3.** Allocate the IP to your pool by clicking the **Allocate IP** button:
 
-![Allocate Floating IP] (https://help.bluebox.net/hc/en-us/article_attachments/202053237/Instances_-_OpenStack_Dashboard_3.png)
+![Allocate Floating IP] (https://cloud.githubusercontent.com/assets/17212946/15376965/ed151ade-1d1d-11e6-84bc-92e10d724c07.png)
 
 **Step 4.** Observe your new floating IP in the dropdown.  You can now click the **Associate** button to attach it to your instance.
 
