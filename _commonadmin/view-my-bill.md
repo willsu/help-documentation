@@ -24,4 +24,4 @@ In the Billing section, click the **Billing History** tab
 
 The **Billing History** section is displayed for your account, showing all invoices, payments and credit memos since your account was opened.  Double-click an item to present additional information for the selected item.
 
-If you have further questions about your bill, please contact our Billing department by using one of the methods outlined in [**How do I report an issue**](http://help.bluebox.net/hc/en-us/articles/201751149-How-do-I-report-an-issue-).
+If you have further questions about your bill, please contact our Billing department by using one of the methods outlined in [**How do I report an issue**](http://ibm-blue-box-help.github.io/help-documentation/gettingstarted/commonadmin/report-issue/).
