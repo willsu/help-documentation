@@ -10,9 +10,9 @@ dateAdded: April 9th, 2015
 
 All of your **IBM Blue Box** invoices and payments can be viewed from within Box Panel at any time.
 
-Log into your [**Box Panel**](https://boxpanel.bluebox.net/) account using your user name and password.
+* Log into your [**Box Panel**](https://boxpanel.bluebox.net/) account using your user name and password.
 
-From the **Account** drop-down, select the **Billing** item
+* From the **Account** drop-down, select the **Billing** item
 
 ![Menu showing Billing Item](http://help.bluebox.net/hc/en-us/article_attachments/201468187/billing_0.jpg)
 
