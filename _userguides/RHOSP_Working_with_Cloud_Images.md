@@ -9,7 +9,7 @@ author: Leslie Lundquist
 editor: Leslie Lundquist, Niraj Patel
 ---
 
-IBM Bluemix Private Cloud with Red Hat comes pre-populated with RHEL 7.3 images, and it also allows you to upload your own cloud images, so that you can run VM instances with the Operating System of your choice. This document tells you what you'll need to know for working with these images. 
+IBM Bluemix Private Cloud with Red Hat comes pre-populated with CirrOS 0.3.3 x86_64 images, and it also allows you to upload your own cloud images, so that you can run VM instances with the Operating System of your choice. This document tells you what you'll need to know for working with these images. 
 
 
 ## Pre-requisites
@@ -46,7 +46,7 @@ Obtain your image from your Red Hat account, or select one available through Box
 
 #### Select from alternative cloud images provided by IBM
 
-IBM Bluemix Private Cloud with Red Hat comes pre-populated with RHEL 7.3 images. Additional cloud images are available, provided as a customer courtesy by IBM.
+IBM Bluemix Private Cloud with Red Hat comes pre-populated with CirrOS 0.3.3 x86_64 images. Additional cloud images are available, provided as a customer courtesy by IBM.
 
 To locate even more images that are available, you can go to [this OpenStack document](https://docs.openstack.org/image-guide/obtain-images.html).
 
