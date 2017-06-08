@@ -1,0 +1,7 @@
+<div>
+  {% if site.languages.size > 1 %}
+    {% for lang in site.languages %}
+      <a {% if lang == site.active_lang %}style="font-weight: bold;"{% endif %} href="{% if lang == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ lang }}{{page.url}} {% endif %}">{{ lang }}</a> |
+    {% endfor %}
+  {% endif %}
+</div>

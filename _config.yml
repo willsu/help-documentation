@@ -13,8 +13,16 @@ baseurl: "/help-documentation" # the subpath of your site, e.g. /blog
 url: "http://ibm-blue-box-help.github.io" # the base hostname & protocol for your site
 twitter_username: tj_egan
 github_username:  twegan
+destination:  ./docs
 
+gems:
+  - jekyll-polyglot
 
+# Polygot gem config for i18n: https://github.com/untra/polyglot
+languages: ["en", "fr"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css"]
+parallel_localization: true
 
 # Build settings
 permalink: /:title
