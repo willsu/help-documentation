@@ -6,8 +6,7 @@
   3. Install Bundler:
   ```
   gem install bundler
-  ``` 
-  
+  ```
   4. Build and Run locally with:
   ```
   bundle exec jekyll serve
@@ -19,9 +18,15 @@
 
 ## Deployment
   1. Build your static web site with jekyll
-  ```
+  ```BASH
   # the 'build' command is more concise, but 'serve' would also work
   bundle exec jekyll build
+  ```
+  
+  2. Release you the static website to the 'gh-pages' branch of your origin repo
+  ```BASH
+  # the './dist' directory must contain the static website
+  node deploy.js
   ```
 
 ## Github Organization
