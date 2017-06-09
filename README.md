@@ -17,6 +17,13 @@
   
   http://localhost:4444/help-documentation/
 
+## Deployment
+  1. Build your static web site with jekyll
+  ```
+  # the 'build' command is more concise, but 'serve' would also work
+  bundle exec jekyll build
+  ```
+
 ## Github Organization
 1. [Basic Github folder Organization](#basic-github-folder-organization)
 2. [Folders for Content](#folders-for-content)
