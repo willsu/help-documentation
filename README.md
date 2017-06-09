@@ -1,18 +1,29 @@
 ![header](/readme-img/bluebox-help.png)
 
-##Running Locally
+## Running Locally
   1. Clone the repo 
   2. Check whether you have Ruby 2.0.0 or higher installed `ruby --version`
-  3. Install Bundler `gem install bundler` 
-  4. Run locally with `bundle exec jekyll serve`
+  3. Install Bundler:
+  ```
+  gem install bundler
+  ``` 
+  
+  4. Build and Run locally with:
+  ```
+  bundle exec jekyll serve
+  ```
+  
+  5. Visit your static web site in a web browser:
+  
+  http://localhost:4444/help-documentation/
 
-##Github Organization
+## Github Organization
 1. [Basic Github folder Organization](#basic-github-folder-organization)
 2. [Folders for Content](#folders-for-content)
 3. [Folders for site structure, page layout and global styling](#folders-for-site-structure)
 
 
-##Article Post
+## Article Post
 1. [Setting up an article](#setting-up-an-article)
 2. [Code highlighting](#code-highlighting)
 3. [Tag best practices](#tag-best-practices)
