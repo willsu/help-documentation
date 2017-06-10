@@ -1,33 +1,38 @@
 ![header](/readme-img/bluebox-help.png)
 
 ## Running Locally
-  1. Clone the repo 
-  2. Check whether you have Ruby 2.0.0 or higher installed `ruby --version`
-  3. Install Bundler:
-  ```
-  gem install bundler
-  ```
-  4. Build and Run locally with:
-  ```
-  bundle exec jekyll serve
-  ```
-  
-  5. Visit your static web site in a web browser:
-  
+1. Clone the repo 
+2. Check whether you have Ruby 2.0.0 or higher installed `ruby --version`
+3. Install Bundler:
+```BASH
+gem install bundler
+```
+4. Check whether you have Node v6.9 or installed `node -v`
+5. Install Node and NPM (if necessary):
+```BASH 
+brew install nvm
+nvm install node --reinstall-packages-from=node
+npm install
+```
+6. Build and Run locally with:
+```
+bundle exec jekyll serve
+```  
+7. Visit your static web site in a web browser:  
   http://localhost:4444/help-documentation/
 
 ## Deployment
-  1. Build your static web site with jekyll
-  ```BASH
-  # the 'build' command is more concise, but 'serve' would also work
-  bundle exec jekyll build
-  ```
-  
-  2. Release you the static website to the 'gh-pages' branch of your origin repo
-  ```BASH
-  # the './dist' directory must contain the static website
-  node deploy.js
-  ```
+1. Build your static web site with jekyll
+```BASH
+# the 'build' command is more concise, but 'serve' would also work
+bundle exec jekyll build
+```
+2. Release you the static website to the 'gh-pages' branch of your origin repo
+```BASH
+# the './dist' directory must contain the static website
+node deploy.js
+```
+3. Visit your production website to verify the changes. Note: The changes may take several minutes after the deploy script exits to reach your production Github environment.
 
 ## Github Organization
 1. [Basic Github folder Organization](#basic-github-folder-organization)
